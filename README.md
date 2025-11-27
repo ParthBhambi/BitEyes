@@ -54,7 +54,7 @@ BitEyes includes two specialized **hardware classifiers** that operate in real-t
   - **Circle (`c`)**
     - Touches bounding box edges only at **single tangent points**  
     - → **0 full edges**.
-  - **Triangle (`t`)**
+  - **Triangle (`⊢`)**
     - Has a **flat base** and a **pointy top**  
     - → **1 full edge**.
   - **Rectangle (`r`)**
