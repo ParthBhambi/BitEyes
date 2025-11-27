@@ -166,27 +166,27 @@ BitEyes includes two specialized **hardware classifiers** that operate in real-t
 
 ### PS/2 Mouse Interface
 
-![PS/2 Mouse Block Diagram](docs/PS2_Mouse.png)  
+![PS/2 Mouse Block Diagram](PS2_Mouse.png)  
 <sub>Custom PS/2 controller, packet parser, and fixed-point position integrator with button logic.</sub>
 
 ### Drawing Controller
 
-![Drawing Controller Block Diagram](docs/Drawing_Controller.png)  
+![Drawing Controller Block Diagram](Drawing_Controller.png)  
 <sub>Brush engine, screen manager FSM, and write arbiter that selects which pixels are written to video memory.</sub>
 
 ### VGA Display Pipeline
 
-![VGA Display Block Diagram](docs/VGA_Display.png)  
+![VGA Display Block Diagram](VGA_Display.png)  
 <sub>Dual-port video RAM, VGA timing controller, and hardware cursor overlay for real-time drawing.</sub>
 
 ### Shape Recognition Engine
 
-![Shape Recognition Block Diagram](docs/Shape_Recognition.png)  
+![Shape Recognition Block Diagram](Shape_Recognition.png)  
 <sub>Bounding box tracking, edge span counters, closure detector, and decision tree for circle/triangle/rectangle classification.</sub>
 
 ### Digit Recognition Engine
 
-![Digit Recognition Block Diagram](docs/Digit_Recognition.png)  
+![Digit Recognition Block Diagram](Digit_Recognition.png)  
 <sub>Movement filter, direction logic, 8-stage history buffer, and combinational pattern matcher for digit 0–9 recognition.</sub>
 
 ---
