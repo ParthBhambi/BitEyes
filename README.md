@@ -159,34 +159,34 @@ BitEyes includes two specialized **hardware classifiers** that operate in real-t
 
 ### High-Level System Overview
 
-![High Level Block Diagram](docs/High_Level_Block_Diagram.png)  
+![High Level Block Diagram](diagram_and_pictures/High_Level_Block_Diagram.png)  
 <sub>Top-level view of BitEyes, showing the PS/2 input path, drawing pipeline, classifiers, and output mux.</sub>
 
 ---
 
 ### PS/2 Mouse Interface
 
-![PS/2 Mouse Block Diagram](PS2_Mouse.png)  
+![PS/2 Mouse Block Diagram](diagram_and_pictures/PS2_Mouse.png)  
 <sub>Custom PS/2 controller, packet parser, and fixed-point position integrator with button logic.</sub>
 
 ### Drawing Controller
 
-![Drawing Controller Block Diagram](Drawing_Controller.png)  
+![Drawing Controller Block Diagram](diagram_and_pictures/Drawing_Controller.png)  
 <sub>Brush engine, screen manager FSM, and write arbiter that selects which pixels are written to video memory.</sub>
 
 ### VGA Display Pipeline
 
-![VGA Display Block Diagram](VGA_Display.png)  
+![VGA Display Block Diagram](diagram_and_pictures/VGA_Display.png)  
 <sub>Dual-port video RAM, VGA timing controller, and hardware cursor overlay for real-time drawing.</sub>
 
 ### Shape Recognition Engine
 
-![Shape Recognition Block Diagram](Shape_Recognition.png)  
+![Shape Recognition Block Diagram](diagram_and_pictures/Shape_Recognition.png)  
 <sub>Bounding box tracking, edge span counters, closure detector, and decision tree for circle/triangle/rectangle classification.</sub>
 
 ### Digit Recognition Engine
 
-![Digit Recognition Block Diagram](Digit_Recognition.png)  
+![Digit Recognition Block Diagram](diagram_and_pictures/Digit_Recognition.png)  
 <sub>Movement filter, direction logic, 8-stage history buffer, and combinational pattern matcher for digit 0–9 recognition.</sub>
 
 ---
