@@ -109,7 +109,7 @@ BitEyes includes two specialized **hardware classifiers** that operate in real-t
 
 - **SW[1] – Classifier Mode**
   - `0`: **Shape Detection Mode**
-    - Bounding box analysis; outputs: `c` (circle), `r` (rectangle), `t` (triangle).
+    - Bounding box analysis; outputs: `c` (circle), `r` (rectangle), `⊢` (triangle).
   - `1`: **Digit Detection Mode**
     - Chain code analysis of stroke directions; outputs: `0`–`9`.
 
@@ -118,7 +118,7 @@ BitEyes includes two specialized **hardware classifiers** that operate in real-t
   - **Right Click**: Erase (white, 8×8 brush) + resets classifier state
 
 - **HEX0 Display**
-  - Shows the **detected shape** (`c`, `r`, `t`) or **digit** (`0`–`9`) **instantly**, depending on `SW[1]`.
+  - Shows the **detected shape** (`c`, `r`, `⊢`) or **digit** (`0`–`9`) **instantly**, depending on `SW[1]`.
 
 ---
 
