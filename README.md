@@ -220,9 +220,9 @@ BitEyes includes two specialized **hardware classifiers** that operate in real-t
 ## TODO / Future Work
 
 - Add multi digit number recognition.
-- Add letter recognition
+- Add letter recognition.
 - Add varying brush sizes to draw thicker or thinner strokes.
-- Add a colour palette
+- Add a colour palette.
 
 ---
 
