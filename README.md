@@ -1,6 +1,6 @@
 # BitEyes
 
-BitEyes is a digital drawing canvas implemented on the **DE1-SoC FPGA** in **Verilog**.  
+BitEyes is a real-time digital drawing canvas implemented on the **DE1-SoC FPGA** in **Verilog**.  
 It features a VGA-based drawing surface, a custom PS/2 mouse driver with hardware-accelerated cursor movement, and two real-time pattern recognition engines for classifying **shapes** and **digits** as you draw.
 
 ---
