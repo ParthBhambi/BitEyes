@@ -219,10 +219,10 @@ BitEyes includes two specialized **hardware classifiers** that operate in real-t
 
 ## TODO / Future Work
 
-- Add more complex shape and digit templates.
-- Support multi-stroke drawing and classification.
-- Add UART/USB interface to capture drawings on a PC.
-- Increase resolution and color depth if resources allow.
+- Add multi digit number recognition.
+- Add letter recognition
+- Add varying brush sizes to draw thicker or thinner strokes.
+- Add a colour palette
 
 ---
 
