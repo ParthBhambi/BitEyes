@@ -5,6 +5,32 @@ It features a VGA-based drawing surface, a custom PS/2 mouse driver with hardwar
 
 ---
 
+## Table of Contents
+
+- [Source Code & Academic Integrity](#source-code--academic-integrity)
+- [Features](#features)
+  - [1. Digital Canvas & Input System](#1-digital-canvas--input-system)
+  - [2. Drawing Engine](#2-drawing-engine)
+  - [3. Intelligent Recognition Algorithms](#3-intelligent-recognition-algorithms)
+  - [4. System Architecture](#4-system-architecture)
+- [Modes & Controls](#modes--controls)
+- [How It Works (Summary)](#how-it-works-summary)
+- [Hardware](#hardware)
+- [Block Diagrams](#block-diagrams)
+  - [High-Level System Overview](#high-level-system-overview)
+  - [PS/2 Mouse Interface](#ps2-mouse-interface)
+  - [Drawing Controller](#drawing-controller)
+  - [VGA Display Pipeline](#vga-display-pipeline)
+  - [Shape Recognition Engine](#shape-recognition-engine)
+  - [Digit Recognition Engine](#digit-recognition-engine)
+- [Demo & Media](#demo--media)
+  - [Photos / Screenshots](#photos--screenshots)
+  - [Video Demos](#video-demos)
+- [TODO / Future Work](#todo--future-work)
+
+---
+
+
 ## Source Code & Academic Integrity
 
 This project was completed as part of **ECE241 (Digital Systems)** at the **University of Toronto**.  
