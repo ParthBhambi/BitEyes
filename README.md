@@ -193,6 +193,18 @@ BitEyes includes two specialized **hardware classifiers** that operate in real-t
 
 ## Demo & Media
 
+### Photos / Screenshots
+
+#### BitEyes Home Screen
+
+![BitEyes Intro Screen](diagram_and_pictures/BitEyes_Intro_Screen.jpeg)  
+<sub>BitEyes splash screen shown on the VGA monitor, with mode instructions.</sub>
+
+#### Triangle Detection on FPGA
+
+![Triangle Detection on HEX0](diagram_and_pictures/FPGA_Triangle_View.jpeg)  
+<sub>DE1-SoC board running BitEyes, displaying the triangle classification (`⊢` / “t”) on HEX0.</sub>
+
 ### Video Demos
 
 #### Shape Recognition
