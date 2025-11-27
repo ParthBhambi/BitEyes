@@ -5,6 +5,21 @@ It features a VGA-based drawing surface, a custom PS/2 mouse driver with hardwar
 
 ---
 
+## Source Code & Academic Integrity
+
+This project was completed as part of **ECE241 (Digital Systems)** at the **University of Toronto**.  
+To comply with university academic integrity policies and to avoid distributing complete assignment solutions, the **Verilog source files (`.v`) are intentionally *not* included in this repository**.
+
+This repo is meant to showcase:
+
+- The overall system architecture
+- Design documentation
+- Block diagrams, photos, and demo videos
+
+If you are a student currently taking ECE241 (or a similar course), please follow your course policies and do **not** reuse this design as submitted work.
+
+---
+
 ## Features
 
 ### 1. Digital Canvas & Input System
